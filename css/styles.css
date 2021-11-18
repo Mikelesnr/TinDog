@@ -1,7 +1,13 @@
 body {
   font-family: 'Montserrat, sans-serif';
 }
-
+.bg-pink{
+  background-color: #ff4c68;
+  color:#ffffff;
+}
+.txt-center{
+  text-align: center;
+}
 h1 {
   font-size: 3rem;
   line-height: 1.5;
@@ -26,8 +32,6 @@ p{
 }
 
 #title {
-  background-color: #ff4c68;
-  color:#ffffff;
   size:3.5rem;
   height: 700px;
   overflow: hidden;
@@ -69,17 +73,11 @@ p{
   color:#d41b38;
 }
 #features{
-  text-align: center;
   /* width:80%; */
   margin-left: auto;
   margin-right: auto;
 }
 /* testimonial section */
-#testimonials{
-  text-align: center;
-  background-color: #ff4c68;
-  color:#ffffff;
-}
 .testimonial-image{
   width:10%;
   border-radius: 100%;
@@ -89,8 +87,6 @@ p{
     padding:7% 15%;
 }
 #press{
-  background-color: #ff4c68;
-  text-align: center;
   padding: 20px 20px 50px;
 }
 .press-logo{
@@ -98,7 +94,6 @@ p{
   marging: 20px 20px 50px 20px;
 }
 .pricing-head{
-  text-align:center;
   padding:2rem 0;
 }
 @media only screen and (min-width: 992px){
@@ -140,9 +135,6 @@ p{
 #features{
   width:90%;
 }
-.margTop{
-  text-align: center;
-}
 .headImg {
   width:60%;
 }
@@ -167,10 +159,8 @@ p{
 }
 /* call to action */
 #cta{
-  background-color:#ff4c68;
   padding:100px;
   text-align: center;
-  color: #fff;
 }
 
 #ctaH3{
@@ -181,7 +171,6 @@ p{
 }
 /* footer */
 #footer{
-  text-align: center;
   padding:40px;
 }
 .foot-icon{
